@@ -1,3 +1,4 @@
+import { HttpModule } from '@angular/http';
 import { ReactiveFormsModule } from '@angular/forms';
 import { FormsModule } from '@angular/forms';
 import { NgModule } from '@angular/core';
@@ -37,7 +38,7 @@ const appRoutes: Routes = [
         LogoutComponent,
         SignupComponent
     ],
-    imports: [ RouterModule.forRoot(appRoutes),BrowserModule,FormsModule,ReactiveFormsModule],
+    imports: [ RouterModule.forRoot(appRoutes),BrowserModule,FormsModule,ReactiveFormsModule,HttpModule],
     bootstrap: [AppComponent]
 })
 export class AppModule {
