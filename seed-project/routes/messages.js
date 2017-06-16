@@ -1,8 +1,8 @@
 var express = require('express');
 var router = express.Router();
 console.log("before the postermessage");
-var Message = require('./models/message');
-console.log("this is message"+JSON.stringify(Message));
+var Message = require('../models/message');
+
 router.post('/', function (req, res, next) {
     console.log("before the poster");
     var message = new Message({
