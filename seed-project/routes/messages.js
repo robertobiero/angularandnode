@@ -5,7 +5,7 @@ var Message = require('../models/message');
 
 
 
-router.get('/', function (req, res, next) {
+router.get('/', function (req, res, next) { ``
   Message.find().
           exec(function(err,messages){
                if(err){
