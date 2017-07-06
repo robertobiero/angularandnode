@@ -16,6 +16,10 @@ import {Router,ActivatedRoute} from '@angular/router'
     padding: 15px;
     margin: 0 auto;
 }
+.container
+{
+ background-image: url("http://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials-hero-00e10b1f.jpg");   
+}
 .form-signin .form-signin-heading, .form-signin .checkbox
 {
     margin-bottom: 10px;
@@ -36,6 +40,7 @@ import {Router,ActivatedRoute} from '@angular/router'
 }
 .form-signin .form-control:focus
 {
+    background-color:red;
     z-index: 2;
 }
 .form-signin input[type="text"]
